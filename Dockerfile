@@ -1,7 +1,8 @@
 
 FROM openjdk:11
 
-COPY target/demo-0.0.1-SNAPSHOT.jar demo.jar
+COPY target/DemoDoc-0.0.1-SNAPSHOT.jar DemoDoc.jar
 
-ENTRYPOINT ["java","-jar","demo.jar"]
+ENTRYPOINT ["java","-jar","DemoDoc.jar"]
+
 
